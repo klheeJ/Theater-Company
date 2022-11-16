@@ -1,0 +1,167 @@
+body {
+    font-family: 'Poiret One', cursive;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    gap: 50px;
+    width: 700px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.landing-page-area-one {
+    background-image: url("static/theater.jpg");
+    padding-top: 500px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+
+.landing-page-title {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+
+
+.play-info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+
+.date {
+    background-color: rgb(173, 169, 169);
+    color: black;
+    border: solid grey 1px;
+    width: 80%;
+    height: 40px;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+
+
+.under-info {
+    display: grid;
+    grid-template-columns: 1 1 1;
+    margin-left: 20px;
+}
+
+
+.image-container-play {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.info-text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+}
+
+
+
+
+.info-button {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    background-color: rgb(241, 209, 28);
+    font-weight: bold;
+}
+
+
+.play-info {
+    padding-bottom: 25px;
+}
+
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1 1 1 1;
+    margin-top: 25px;
+}
+
+
+.mapimg {
+    width: 250px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 50px;
+}
+
+
+.footinfo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.footshows {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+.footsocial {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+
+.foothead {
+    font-size: 30px;
+}
+
+hr {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
